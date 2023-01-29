@@ -1,0 +1,83 @@
+html, body {
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 10px;
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+button {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba($color: #000, $alpha: 0.2);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba($color: #000, $alpha: 0.3);
+}
+/*** 
+====================================================================
+Global Settings
+====================================================================
+   ***/
+body {
+  font-family: $roboto;
+  color: $white;
+  font-weight: 500;
+  background: $main;
+
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: .3s ease;
+  color: $white;
+  &:hover {
+    opacity: .9;
+  }
+}
+
+.auto__container {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 12.6rem;
+
+}
+ul
+li {
+  padding: 0;
+  margin: 0;
+}
+::-webkit-scrollbar{
+  display: none;
+}

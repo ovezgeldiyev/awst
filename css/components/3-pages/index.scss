@@ -1,0 +1,88 @@
+.intro {
+    padding: 1rem 0 6rem;
+    .auto__container {
+        display: flex;
+        align-items: center;
+        min-height: 70vh;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        min-height: 40vh;
+        &-col {
+            width: calc(62% - 6.7rem);
+            position: relative;
+            margin-top: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            &:last-child {
+                width: calc(38% - 6.7rem);
+                margin-top: 0;
+            }
+            &-image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 7rem;
+                img {
+                    width: 100%;
+                    border-radius: 3.6rem;
+                }
+            }
+            > p {
+                margin: 8rem 0 22rem 1.2rem;
+            }
+        }
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: calc(100% - 3rem);
+            span {
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                width: calc(13% - 2rem);
+                margin: 0 2rem 4rem;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    &Item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 12%;
+        &:first-child {
+            width: 17%;
+        }
+        &__icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1.4rem;
+            max-width: 9rem;
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+}
+// 1024px
+@mixin intro-lg-xlg {
+    .intro {
+        &__inner {
+            &-col {
+                width: calc(62% - 5rem);
+                &:last-child {
+                    width: calc(38% - 5rem);
+                }
+            }
+        }
+    }
+}

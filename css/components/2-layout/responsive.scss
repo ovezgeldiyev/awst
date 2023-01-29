@@ -1,0 +1,130 @@
+//  > 1920px
+@include xxxxxxlg-xxxxxxxlg {
+    html {
+        font-size: .52vw;
+    }
+    .auto__container {
+        max-width: unset;
+    }
+    .top {
+        max-height: 34vh;
+    }
+    .bottom {
+        max-height: 40vh;
+    }
+}
+// 1885px
+@include xxxxxlg-xxxxxxlg {
+    html {
+        font-size: 9px;
+    }
+}
+// 1700px
+@include xxxxlg-xxxxxlg {
+    html {
+        font-size: 8px;
+    }
+}
+// 1510px
+@include xxxlg-xxxxlg {
+    html {
+        font-size: 7px;
+    }
+}
+// 1320px
+@include xlg-xxlg-extra {
+    html {
+        font-size: 6px;
+    }
+}
+// 1140px
+@include lg-xlg-extra {
+    html {
+        font-size: 5.5px;
+    }
+}
+// 1040px
+@include lg-xlg {
+    html {
+        font-size: 5px;
+    }
+    @include intro-lg-xlg;
+    .top {
+        max-height: 200px;
+    }
+    .bottom {
+        max-height: 300px;
+    }
+}
+// 930px
+@include md-lg { 
+    html {
+        font-size: 4.6px;
+    }
+}
+// 850px
+@include md-lg-extra {
+    html {
+        font-size: 4.2px;
+    }
+    .top {
+        max-height: 180px;
+    }
+    .bottom {
+        max-height: 240px;
+    }
+}
+// 770px
+@include sm-md {
+    html {
+        font-size: 3.8px;
+    }
+}
+// 700px
+@include sm-md-extra {
+    html {
+        font-size: 3.4px;
+    }
+    .top {
+        max-height: 130px;
+    }
+    .bottom {
+        max-height: 200px;
+    }
+}
+// 630px
+@include xsm-sm-extra  {
+    html {
+        font-size: 3px;
+    }
+}
+// 560px
+@include xsm-sm  {
+    html {
+        font-size: 2.6px;
+    }
+    .top {
+        max-height: 90px;
+    }
+    .bottom {
+        max-height: 150px;
+    }
+}
+// 460px
+@include xxsm-xsm  {
+    html {
+        font-size: 2px;
+    }
+}
+// 370px
+@include xxxsm-xxsm  {
+    html {
+        font-size: 1.8px;
+    }
+}
+// 330px
+@include xxxxsm-xxxsm  {
+    html {
+        font-size: 1.5px;
+    }
+}
